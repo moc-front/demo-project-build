@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///Users/bhargavayare/Men%20of%20Culture/demo/my-app/app/page.tsx"],"sourcesContent":["// app/page.tsx\nimport os from 'node:os';\n\nconst getHostLabel = () => {\n  const host = process.env.HOSTNAME || os.hostname();\n  if (!host) return 'unknown';\n  return host.includes('localhost') ? 'localhost' : host;\n};\n\nconst HomePage = async () => {\n  const hostLabel = getHostLabel();\n\n  return (\n    <main className=\"flex min-h-screen items-center justify-center bg-slate-50\">\n      <p className=\"rounded-xl bg-white px-6 py-4 text-lg font-semibold text-slate-800 shadow\">\n        {hostLabel}\n      </p>\n    </main>\n  );\n};\n\nexport default HomePage;"],"names":[],"mappings":"AAAA,eAAe;;;;;;AACf;;;AAEA,MAAM,eAAe;IACnB,MAAM,OAAO,QAAQ,GAAG,CAAC,QAAQ,IAAI,wHAAE,CAAC,QAAQ;IAChD,IAAI,CAAC,MAAM,OAAO;IAClB,OAAO,KAAK,QAAQ,CAAC,eAAe,cAAc;AACpD;AAEA,MAAM,WAAW;IACf,MAAM,YAAY;IAElB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;YAAE,WAAU;sBACV;;;;;;;;;;;AAIT;uCAEe"}}]
+}

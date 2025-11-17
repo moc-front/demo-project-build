@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/bhargavayare/Men of Culture/Projects/demo/my-app",
+    "outputFileTracingRoot": "/Users/bhargavayare/Men of Culture/demo/my-app",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -289,11 +289,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "/Users/bhargavayare/Men of Culture/Projects/demo/my-app"
+      "root": "/Users/bhargavayare/Men of Culture/demo/my-app"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/bhargavayare/Men of Culture/Projects/demo/my-app",
+  "appDir": "/Users/bhargavayare/Men of Culture/demo/my-app",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
