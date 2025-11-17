@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///Users/bhargavayare/Men%20of%20Culture/demo/my-app/app/page.tsx"],"sourcesContent":["// app/page.js (App Router) or pages/index.js (Pages Router)\nimport os from 'os';\n\nexport default function Page() {\n  const hostname = os.hostname();\n  \n  return (\n    <div>\n      <h1>System Information</h1>\n      <p>Hostname: {hostname}</p>\n      <p>Platform: {os.platform()}</p>\n      <p>Architecture: {os.arch()}</p>\n    </div>\n  );\n}"],"names":[],"mappings":"AAAA,4DAA4D;;;;;;AAC5D;;;AAEe,SAAS;IACtB,MAAM,WAAW,wGAAE,CAAC,QAAQ;IAE5B,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;;oBAAE;oBAAW;;;;;;;0BACd,8OAAC;;oBAAE;oBAAW,wGAAE,CAAC,QAAQ;;;;;;;0BACzB,8OAAC;;oBAAE;oBAAe,wGAAE,CAAC,IAAI;;;;;;;;;;;;;AAG/B"}}]
+}
